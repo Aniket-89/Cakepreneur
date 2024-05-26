@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "name": "cakepreneur",
+    "name": "cakepreneur-b",
     "builds": [
         {
             "src": "server.js",
