@@ -31,3 +31,5 @@ app.get("/", (req, res) => {
 // Listen on the port provided by Vercel or default to 4000 for local development
 const port = process.env.PORT || 4000;
 app.listen(port, () => console.log(`Server started on http://localhost:${port}`));
+
+module.exports = app;
