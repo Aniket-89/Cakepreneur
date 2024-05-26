@@ -5,6 +5,7 @@
   "type": "module",
   "main": "server.js",
   "scripts": {
+    "server": "node server.js",
     "start": "node server.js"
   },
   "author": "",
@@ -23,3 +24,4 @@
     "validator": "^13.11.0"
   }
 }
+
