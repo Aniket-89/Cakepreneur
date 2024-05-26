@@ -1,22 +1,16 @@
 {
     "version": 2,
+    "name": "cakepreneur",
     "builds": [
-      {
-        "src": "backend/package.json",
-        "use": "@vercel/static-build",
-        "config": {
-          "distDir": "dist"
+        {
+            "src": "server.js",
+            "use": "@vercel/node"
         }
-      },
-      {
-        "src": "backend/server.js",
-        "use": "@vercel/node"
-      }
     ],
     "routes": [
-      {
-        "src": "/api/(.*)",
-        "dest": "dist/backend/server.js"
-      }
+        {
+            "src": "/(.*)",
+            "dest": "server.js"
+        }
     ]
-  }
+}
