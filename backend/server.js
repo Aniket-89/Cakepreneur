@@ -14,7 +14,7 @@ const port = process.env.PORT || 4000
 
 // middlewares
 app.use(express.json())
-app.use(cors({origin: "https://cakepreneur.vercel.app/"}))
+app.use(cors({origin: "https://cakepreneur-d6q1ps89f-aniket89s-projects.vercel.app/"}))
 
 // db connection
 connectDB()
